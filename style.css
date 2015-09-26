@@ -17,8 +17,8 @@
 
 /* This section sets the defaults for the page, but you may never see changes here if they are overwritten by the div elements below.  */
 html, body {
-  margin: 0;  /* Margin is the amount of space between the border of an element, and the elements outside it. */
-  padding: 0; /* Padding is the amount of space between the border of an element, and the elements inside it. */
+  margin: 5;  /* Margin is the amount of space between the border of an element, and the elements outside it. */
+  padding: 5; /* Padding is the amount of space between the border of an element, and the elements inside it. */
 }
 
 body{
@@ -42,8 +42,8 @@ h1 { /* This styles the header at the top of the page */
 
 h2 { /* This styles the headers within the page */
   font: bold 1.1em 'Source Sans Pro',Arial, Sans-Serif;
-  padding: 0;
-  margin: 0;
+  padding: 5;
+  margin: 5;
 }
 
 
@@ -51,14 +51,14 @@ h2 { /* This styles the headers within the page */
    We can use it to specify style elements that we want to be the same accross divs. */
 div.section {
   padding: 1em;
-  margin-bottom: 0;
+  margin-bottom: 5;
   text-align: justify;
 
 }
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
 #plan, #more {
-  background:#000080;
+  background:#484848;
   color: white;
   font: 'Source Sans Pro',Arial, Sans-Serif;
   background-image: none;  /* replace none with url('image-url') to set a background image  */
@@ -66,7 +66,7 @@ div.section {
 
 /* You can alter the links within a div with the following syntax */
 #plan a {
-  color: #C41E3A;
+  color: #660099;
 }
 
 /* This alters the appearance of the div with id="signup". */
